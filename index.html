@@ -3,37 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolina's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Manrope:wght@200..800&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>🌻 Carolina's Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+
     <header>
         <h1>Carolina Astolfo</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <h2>This portfolio is a wip</h2>
+        <h6>Repo links to some random stuff</h6>
+        <div id="button-group">
+          <div id="button">
+            <button id="all-btn">all</button>
+            <button id="java-btn">java</button>
+            <button id="next-btn">next</button>
+            <button id="html-btn">html/css</button>
+
+
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="image-container">
+
+          <div class="image next">
+            <a href="https://github.com/carolastolfo/CineQuest" target="_blank">
+                <img class="my-img" src="./assets/images/cinequest.png" />
+                <p class="subtitle">Movie & TV app using Next.js + TMDB API.</p>
+            </a>    
+        </div>
+
+          <div class="image java">
+            <a href="https://github.com/carolastolfo/cake-order-java">
+                <img class="my-img" src="./assets/images/cake-order.png" />
+                <p class="subtitle">Java OOP cake ordering system.</p>
+            </a>    
+        </div>
+          <div class="image html">
+            <a href="https://github.com/carolastolfo/WickNWeave">
+
+            <img class="my-img" src="./assets/images/wick-weave.png" />
+            <p class="subtitle">Wick&Weave – HTML/CSS eCommerce site</p>
+        </a>    
+
+          </div>
+          
+        </div>
+      </main>
+
     
-    <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects-container">
-                <div class="project">
-                    <h3>Java Cake Project</h3>
-                    <p>A Java-based cake ordering system with object-oriented design.</p>
-                    <a href="https://github.com/carolastolfo/cake-order-java" target="_blank">View Project</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    
+    
+
     
     <footer>
         <p>&copy; 2025 Carolina Astolfo | Built with 💻</p>
     </footer>
+    
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
     
 </body>
 </html>
